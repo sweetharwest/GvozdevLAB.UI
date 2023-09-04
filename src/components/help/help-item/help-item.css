@@ -1,0 +1,98 @@
+.details-block {
+}
+
+.invisible-block {
+    display: none;
+}
+
+.visible-block {
+    
+}
+
+.help-item-title {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: 0.15em;
+    font-family: "Golos", serif;
+    font-weight: 700;
+    line-height: 48px;
+    color: black;
+    /*padding: 20px 20px 0 20px;*/
+}
+
+.help-item-title:after {
+    content: "+";
+    position: absolute;
+    right:0;
+}
+
+.help-item-title-v {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: 0.15em;
+    font-family: "Golos", serif;
+    font-weight: 700;
+    line-height: 48px;
+    color: black;
+    /*padding: 20px 20px 0 20px;*/
+}
+
+.help-item-title-v:after {
+    content: "—";
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.help-item-description {
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 0 10px 10px;
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    line-height: 52px;
+    letter-spacing: 0;
+
+}
+
+.help-item-advantage {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    left: 40px;
+    top: 0;
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    line-height: 47px;
+    letter-spacing: 0;
+}
+
+.help-item-cost {
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 0 10px 10px;
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+.help-item {
+    border-top: solid black 4px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.help-item-advantage-li {
+    color: #2446cc;
+    padding: 10px 0 10px 10px;
+    font-size: 50px;
+    position: relative;
+}

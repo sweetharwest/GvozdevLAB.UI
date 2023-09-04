@@ -1,0 +1,21 @@
+.player-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    z-index: 3;
+}
+
+.none {
+    display: none;
+}
+
+.player-window {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

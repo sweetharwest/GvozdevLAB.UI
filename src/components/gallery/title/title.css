@@ -1,0 +1,14 @@
+.gallery-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #8d1a1a;
+}
+
+.gallery-title-container {
+    z-index: 3;
+    padding: 20px 20px 0 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}

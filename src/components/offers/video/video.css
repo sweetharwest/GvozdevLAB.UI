@@ -1,0 +1,76 @@
+.video-description {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+.video-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    position: relative;
+    height: 100%;
+    background-color: #414141;
+}
+
+.video-image-img {
+    max-width: 500px;
+    max-height: 400px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.video {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.video-description-title {
+    letter-spacing: 0.15em;
+    font-family: "Golos", serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: black;
+    padding: 20px 20px 0 20px;
+    text-align: left;
+}
+
+.video-description-text {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding: 20px 20px 0 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.video-description-text:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    /*left: 50%;*/
+    display: block;
+    /*background: none repeat scroll 0 0 transparent;*/
+    height: 4px;
+    /*width: 0;*/
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    background-color: #61dafb;
+    width: 90%;
+    left: 5%;
+}
+
+.video-description-text:hover::after {
+    width: 100%;
+    left: 0;
+}

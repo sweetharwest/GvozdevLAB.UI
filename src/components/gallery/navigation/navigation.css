@@ -1,0 +1,68 @@
+.navigation-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -140px);
+    background: rgba(255, 255, 255, .4);
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-flex;
+    gap: 5px;
+}
+
+.navigation-button-left {
+    min-width: 45px;
+    display: block;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: #003049 url('../../../images/gallery/arrow/arrow-left.svg') no-repeat center center;
+    text-indent: -1234em;
+    background-size: 52% auto;
+    transition: opacity 0.3s, background-color 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigation-button-left:hover {
+    opacity: 0.7;
+}
+
+.navigation-button-left:disabled {
+    background-color: transparent;
+    cursor: default;
+    opacity: 0.5;
+}
+
+.navigation-button-left:disabled:hover {
+    opacity: 0.5;
+}
+
+.navigation-button-right {
+    min-width: 45px;
+    display: block;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: #003049 url('../../../images/gallery/arrow/arrow-right.svg') no-repeat center center;
+    text-indent: -1234em;
+    background-size: 52% auto;
+    transition: opacity 0.3s, background-color 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigation-button-right:hover {
+    opacity: 0.7;
+}
+
+.navigation-button-right:disabled {
+    background-color: transparent;
+    cursor: default;
+    opacity: 0.5;
+}
+
+.navigation-button-right:disabled:hover {
+    opacity: 0.5;
+}
